@@ -11,8 +11,10 @@ export default {
 <template>
   <AppHeader />
 
-  <main class="container py-3">
-    <router-view></router-view>
+  <main>
+    <div class="container py-5">
+      <router-view></router-view>
+    </div>
   </main>
 </template>
 
